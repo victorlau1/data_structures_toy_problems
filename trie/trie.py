@@ -29,7 +29,9 @@ class Trie:
     return ord(char) - ord('a')
 
   def insert(self,key):
-
+    """
+      Insert keys into the tree
+    """
     tSearch = self.root
     length = len(key)
 
@@ -57,7 +59,9 @@ class Trie:
 
 
 def main(argv):
-
+  """
+    Utilize sys.argv to input multiple variables
+  """
   tree = Trie()
 
   print('Arguments Given are: ')
